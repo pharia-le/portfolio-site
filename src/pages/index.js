@@ -13,10 +13,9 @@ import pic3 from '../assets/images/pic03.jpg';
 
 const sections = [
   { id: 'one', name: 'About' },
-  { id: 'two', name: 'Things I Can Do' },
-  { id: 'three', name: 'A Few Accomplishments' },
+  { id: 'two', name: 'Technologies' },
+  { id: 'three', name: 'Projects' },
   { id: 'four', name: 'Contact' },
-  { id: 'five', name: 'Elements' },
 ];
 const IndexPage = () => (
   <Layout>
@@ -29,50 +28,39 @@ const IndexPage = () => (
           </div>
           <div className="container">
             <header className="major">
-              <h2>Read Only</h2>
+              <h2>Hello, I'm Pharia</h2>
               <p>
-                Just an incredibly simple responsive site
-                <br />
-                template freebie by <a href="http://html5up.net">HTML5 UP</a>.
+                A web developer & programmer from San Jose, CA. 
               </p>
             </header>
             <p>
-              Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus
-              col. Commodo id in arcu ante lorem ipsum sed accumsan erat
-              praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo.
-              Vis aliquet tortor ultricies non ante erat nunc integer eu ante
-              ornare amet commetus vestibulum blandit integer in curae ac
-              faucibus integer non. Adipiscing cubilia elementum.
+
             </p>
           </div>
         </section>
 
         <section id="two">
           <div className="container">
-            <h3>Things I Can Do</h3>
+            <h3>Technologies</h3>
             <p>
-              Integer eu ante ornare amet commetus vestibulum blandit integer in
-              curae ac faucibus integer non. Adipiscing cubilia elementum
-              integer lorem ipsum dolor sit amet.
+              I primarily use <b>JavaScript</b>, but have familiarity and fun with various other languages, tools, and frameworks.
             </p>
             <ul className="feature-icons">
-              <li className="fa-code">Write all the code</li>
-              <li className="fa-cubes">Stack small boxes</li>
-              <li className="fa-book">Read books and stuff</li>
-              <li className="fa-coffee">Drink much coffee</li>
-              <li className="fa-bolt">Lightning bolt</li>
-              <li className="fa-users">Shadow clone technique</li>
+              <li className="fa-code">JavaScript</li>
+              <li className="fa-cubes">React</li>
+              <li className="fa-book">Redux</li>
+              <li className="fa-coffee">Ruby on Rails</li>
+              <li className="fa-bolt">HTML5</li>
+              <li className="fa-users">CSS</li>
             </ul>
           </div>
         </section>
 
         <section id="three">
           <div className="container">
-            <h3>A Few Accomplishments</h3>
+            <h3>Works</h3>
             <p>
-              Integer eu ante ornare amet commetus vestibulum blandit integer in
-              curae ac faucibus integer non. Adipiscing cubilia elementum
-              integer. Integer eu ante ornare amet commetus.
+              I love building applications. Below are a few of my accomplishments.
             </p>
             <div className="features">
               <article>
@@ -80,10 +68,9 @@ const IndexPage = () => (
                   <img src={pic1} alt="" />
                 </a>
                 <div className="inner">
-                  <h4>Possibly broke spacetime</h4>
+                  <h4><a href='https://github.com/pharia-le/type-it-front-end'>Type It</a></h4>
                   <p>
-                    Integer eu ante ornare amet commetus vestibulum blandit
-                    integer in curae ac faucibus integer adipiscing ornare amet.
+                  A typing web application built with JS & Ruby on Rails.
                   </p>
                 </div>
               </article>
@@ -92,10 +79,9 @@ const IndexPage = () => (
                   <img src={pic2} alt="" />
                 </a>
                 <div className="inner">
-                  <h4>Terraformed a small moon</h4>
+                  <h4><a href='https://github.com/pharia-le/done_and_done'>Done & Done</a></h4>
                   <p>
-                    Integer eu ante ornare amet commetus vestibulum blandit
-                    integer in curae ac faucibus integer adipiscing ornare amet.
+                    A project & task management web application built with Rails.
                   </p>
                 </div>
               </article>
@@ -104,10 +90,9 @@ const IndexPage = () => (
                   <img src={pic3} alt="" />
                 </a>
                 <div className="inner">
-                  <h4>Snapped dark matter in the wild</h4>
+                  <h4><a href='https://github.com/pharia-le/momentum-front-end'>Momentum</a></h4>
                   <p>
-                    Integer eu ante ornare amet commetus vestibulum blandit
-                    integer in curae ac faucibus integer adipiscing ornare amet.
+                    A habit tracking web application built with React, Redux & Rails.
                   </p>
                 </div>
               </article>
@@ -119,9 +104,7 @@ const IndexPage = () => (
           <div className="container">
             <h3>Contact Me</h3>
             <p>
-              Integer eu ante ornare amet commetus vestibulum blandit integer in
-              curae ac faucibus integer non. Adipiscing cubilia elementum
-              integer. Integer eu ante ornare amet commetus.
+            Let's connect! I would love to hear of any project ideas or opportunities! :) 
             </p>
             <form method="post" action="#">
               <div className="row gtr-uniform">
@@ -168,32 +151,6 @@ const IndexPage = () => (
                 </div>
               </div>
             </form>
-          </div>
-        </section>
-        <section id="five">
-          <div className="container">
-            <h3>Elements</h3>
-            <h4>Text</h4>
-            <p>
-              This is <b>bold</b> and this is <strong>strong</strong>. This is{' '}
-              <i>italic</i> and this is <em>emphasized</em>. This is{' '}
-              <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-              This is <u>underlined</u> and this is code:{' '}
-              <code>for (;;) ... </code>. Finally,{' '}
-              <a href="/#">this is a link</a>.
-            </p>
-            <hr />
-            <header>
-              <h4>Heading with a Subtitle</h4>
-              <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-            </header>
-            <br />
-            <h5>
-              This started contains all HTML elements
-              <br />
-              Checkout available styling
-              <Link to="/Element"> here</Link>
-            </h5>
           </div>
         </section>
       </div>
