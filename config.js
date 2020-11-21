@@ -23,9 +23,9 @@ module.exports = {
       url: 'https://twitter.com/pharia',
     },
     {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/pharia-le/',
     },
     {
       icon: 'fa-envelope-o',
